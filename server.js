@@ -9,6 +9,10 @@ app.use(express.json())
 
 app.use(cors())
 
+app.get('/', (req, res) => {
+  res.send('Server running...')
+})
+
 fs.readdirSync('./routes').map((route) => {
   route = route.split('.')[0]
 
