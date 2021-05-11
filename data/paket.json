@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "name": "PA Plus Family Standard",
+        "value": "PAPF1"
+    },
+    {
+        "id": 2,
+        "name": "PA Plus Family Specialist",
+        "value": "PAPF2"
+    },
+    {
+        "id": 3,
+        "name": "PA Plus Family Premium",
+        "value": "PAPF3"
+    },
+    {
+        "id": 4,
+        "name": "PA Plus Individu Standard",
+        "value": "PAPI1"
+    },
+    {
+        "id": 5,
+        "name": "PA Plus Individu Specialist",
+        "value": "PAPI2"
+    }
+]
