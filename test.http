@@ -1,4 +1,13 @@
 http://localhost:5000/api/v1/paket
 
 ####
-http://localhost:5000/api/v1/paket/5
+http://localhost:5000/paplus/api/plan
+
+
+####
+POST http://localhost:5000/paplus/api/quotes/calculate_premium
+Content-Type: application/json
+
+{
+    "plan": "PAPI1"
+}
