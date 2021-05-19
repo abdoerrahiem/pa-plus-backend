@@ -1,22 +1,22 @@
 [
-    {
-        "description": "FAMILY STANTARD",
-        "id": "PAPF1"
-    },
-    {
-        "description": "FAMILY SPECIALIST",
-        "id": "PAPF2"
-    },
-    {
-        "description": "FAMILY PREMIUM",
-        "id": "PAPF3"
-    },
-    {
-        "description": "INDIVIDUAL STANDARD",
-        "id": "PAPI1"
-    },
-    {
-        "description": "INDIVIDUAL SPECIALIST",
-        "id": "PAPI2"
-    }
+  {
+    "description": "Individual Standart -> Silver",
+    "id": "PAPI1"
+  },
+  {
+    "description": "Individual Specialist -> Gold",
+    "id": "PAPI2"
+  },
+  {
+    "description": "Family Standart -> Silver",
+    "id": "PAPF1"
+  },
+  {
+    "description": "Family Specialist -> Gold",
+    "id": "PAPF2"
+  },
+  {
+    "description": "Family Premium -> Platinum",
+    "id": "PAPF3"
+  }
 ]
