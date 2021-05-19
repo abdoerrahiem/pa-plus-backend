@@ -1,9 +1,7 @@
 require('dotenv').config()
 const express = require('express')
 const cors = require('cors')
-const fs = require('fs')
 const paket = require('./data/paket.json')
-const calculate = require('./data/calculate.json')
 
 const app = express()
 
@@ -207,6 +205,84 @@ app.post('/paplus/api/quotes', (req, res) => {
             : plan === 'PAPI2'
             ? 350000
             : 0,
+      },
+    ],
+  }
+
+  res.json(response)
+})
+
+app.put('/paplus/api/quotes/:quoteId/customer', (req, res) => {
+  const { quoteId } = req.params
+  const {
+    quote,
+    name,
+    email,
+    id_number,
+    id_type,
+    telephone_number,
+    gender,
+    birth_date,
+    id_name,
+  } = req.body
+
+  const response = {
+    product_id: 'PA-P',
+    sum_insured_1: 1,
+    sum_insured_2: 0,
+    sum_insured_3: 0,
+    sum_insured_4: 0,
+    sum_insured_5: 0,
+    include_ext_cover_f: 0,
+    inception_date: quote.inception_date,
+    coverage_id: 'ECHAN-PAP',
+    id: quoteId,
+    total_premium: quote.total_premium,
+    total_payable: quote.total_payable,
+    total_discount: 0,
+    total_admin_fee: 0,
+    total_stamp_duty: 0,
+    donation: 0,
+    discount_pct: 0,
+    expiry_date: quote.inception_date,
+    charity_organization: null,
+    paplus_detail: {
+      occupation_id: '',
+      sum_insured_level: '',
+      gender: '',
+      birth_date: quote.inception_date,
+      name: '',
+      id_number: '',
+      b_flag: false,
+      c_flag: false,
+      beneficiary_name: '',
+      beneficiary_contact: '',
+    },
+    customer_detail: {
+      name,
+      email,
+      id_number,
+      id_type,
+      telephone_number,
+      gender,
+      birth_date,
+      id_name,
+      id_citizenship: '',
+      care_user_id: '',
+      zipcode: '',
+      address_1: '',
+      address_2: '',
+      address_3: '',
+    },
+    premium_details: [
+      {
+        amount: quote.premium_details[0].amount,
+        amount_detail: quote.premium_details[0].amount_detail,
+        coverage_code: 'PA-P',
+        coverage_detail: 'PA Plus',
+        admin_fee: 0,
+        stamp_duty: 0,
+        rate: quote.premium_details[0].rate,
       },
     ],
   }

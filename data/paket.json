@@ -1,22 +1,118 @@
 [
   {
-    "description": "Individual Standart -> Silver",
-    "id": "PAPI1"
+    "description": "PA Low Risk 1 - Coverage A",
+    "id": "LRISK1_A"
   },
   {
-    "description": "Individual Specialist -> Gold",
-    "id": "PAPI2"
+    "description": "PA Low Risk 1 - Coverage A + B",
+    "id": "LRISK1_B"
   },
   {
-    "description": "Family Standart -> Silver",
+    "description": "PA Low Risk 1 - Coverage A + B + C",
+    "id": "LRISK1_C"
+  },
+  {
+    "description": "PA Low Risk 2 - Coverage A",
+    "id": "LRISK2_A"
+  },
+  {
+    "description": "PA Low Risk 2 - Coverage A + B",
+    "id": "LRISK2_B"
+  },
+  {
+    "description": "PA Low Risk 2 - Coverage A + B + C",
+    "id": "LRISK2_C"
+  },
+  {
+    "description": "PA Low Risk 3 - Coverage A",
+    "id": "LRISK3_A"
+  },
+  {
+    "description": "PA Low Risk 3 - Coverage A + B",
+    "id": "LRISK3_B"
+  },
+  {
+    "description": "PA Low Risk 3 - Coverage A + B + C",
+    "id": "LRISK3_C"
+  },
+  {
+    "description": "PA Low Risk 4 - Coverage A",
+    "id": "LRISK4_A"
+  },
+  {
+    "description": "PA Low Risk 4 - Coverage A + B",
+    "id": "LRISK4_B"
+  },
+  {
+    "description": "PA Low Risk 4 - Coverage A + B + C",
+    "id": "LRISK4_C"
+  },
+  {
+    "description": "PA Non Risk 1 - Coverage A",
+    "id": "NRISK1_A"
+  },
+  {
+    "description": "PA Non Risk 1 - Coverage A + B",
+    "id": "NRISK1_B"
+  },
+  {
+    "description": "PA Non Risk 1 - Coverage A + B + C",
+    "id": "NRISK1_C"
+  },
+  {
+    "description": "PA Non Risk 2 - Coverage A",
+    "id": "NRISK2_A"
+  },
+  {
+    "description": "PA Non Risk 2 - Coverage A + B",
+    "id": "NRISK2_B"
+  },
+  {
+    "description": "PA Non Risk 2 - Coverage A + B + C",
+    "id": "NRISK2_C"
+  },
+  {
+    "description": "PA Non Risk 3 - Coverage A",
+    "id": "NRISK3_A"
+  },
+  {
+    "description": "PA Non Risk 3 - Coverage A + B",
+    "id": "NRISK3_B"
+  },
+  {
+    "description": "PA Non Risk 3 - Coverage A + B + C",
+    "id": "NRISK3_C"
+  },
+  {
+    "description": "PA Non Risk 4 - Coverage A",
+    "id": "NRISK4_A"
+  },
+  {
+    "description": "PA Non Risk 4 - Coverage A + B",
+    "id": "NRISK4_B"
+  },
+  {
+    "description": "PA Non Risk 4 - Coverage A + B + C",
+    "id": "NRISK4_C"
+  },
+  {
+    "description": "FAMILY STANDARD",
     "id": "PAPF1"
   },
   {
-    "description": "Family Specialist -> Gold",
+    "description": "FAMILY SPECIALIST",
     "id": "PAPF2"
   },
   {
-    "description": "Family Premium -> Platinum",
+    "description": "FAMILY PREMIUM",
     "id": "PAPF3"
+  },
+  {
+    "description": "INDIVIDUAL STANDARD",
+    "id": "PAPI1"
+  },
+  {
+    "description": "INDIVIDUAL SPECIALIST",
+    "id": "PAPI2"
   }
 ]
